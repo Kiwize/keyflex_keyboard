@@ -1,5 +1,6 @@
 // src/components/CtaSection.tsx
 import { type FormEvent, useState } from "react";
+import Footer from "./Footer";
 
 const CtaSection = () => {
   const [email, setEmail] = useState("");
@@ -46,6 +47,7 @@ const CtaSection = () => {
             </form>
           </div>
         </div>
+        <Footer />
       </div>
     </section>
   );

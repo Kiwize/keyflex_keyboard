@@ -20,7 +20,7 @@ function App() {
           <CtaSection />
         </div>
       </main>
-      <Footer />
+      
     </div>
   );
 }

@@ -36,6 +36,7 @@ body {
   background: radial-gradient(circle at top, #202437 0, #0d0d0d 55%, #000000 100%);
   -webkit-font-smoothing: antialiased;
   background-attachment: fixed;
+  overflow-y: hidden;
 }
 
 img {
