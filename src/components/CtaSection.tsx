@@ -15,14 +15,14 @@ const CtaSection = () => {
   };
 
   return (
-    <section className="section section--tighter">
+    <section className="section section--tighter" id="cta">
       <div className="container">
         <div className="cta">
           <div className="cta-layout">
             <div>
               <div className="section-eyebrow">Mailing list</div>
               <h2 className="heading-lg">
-                Rejoins les premiers créateurs à tester le clavier.
+                Soit dans les premier à tester le clavier KeyFlex.
               </h2>
               <p className="text-sm" style={{ marginTop: "0.6rem" }}>
                 Inscris-toi pour suivre l’avancement, les premiers prototypes,

@@ -7,9 +7,10 @@ const Hero = () => {
         <div>
           <div className="hero-badge">
             <span className="hero-badge-dot" />
-            <span>Clavier créatif à keycaps dynamiques</span>
+            <span>Clavier adaptif à keycaps dynamiques</span>
           </div>
           <h1 className="heading-xl hero-title">
+            KeyFlex<br/>
             Le clavier qui suit chaque idée 💡,
             <br />
             pas l’inverse.
@@ -21,7 +22,18 @@ const Hero = () => {
           </p>
 
           <div className="hero-actions">
-            <button className="btn btn-primary">
+            <button
+              className="btn btn-primary"
+              onClick={(e) => {
+                e.preventDefault();
+                const el = document.getElementById("cta");
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth", block: "start" });
+                } else {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }
+              }}
+            >
               Rejoindre la liste d’attente
             </button>
             <button className="btn btn-ghost">
