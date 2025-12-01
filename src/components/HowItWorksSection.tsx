@@ -23,7 +23,7 @@ const HowItWorksSection = () => {
             <div className="step-number">Étape 1</div>
             <h3 className="heading-md">Choisis ton workflow</h3>
             <p className="text-sm">
-              Montage, live, design, écriture… Tu crées un profil par usage ou
+              Montage, dev, design, écriture… Tu crées un profil par usage ou
               par projet, lié à une ou plusieurs applications.
             </p>
           </div>

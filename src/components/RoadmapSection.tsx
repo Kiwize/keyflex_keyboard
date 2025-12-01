@@ -12,8 +12,8 @@ const RoadmapSection = () => {
             </h2>
           </div>
           <p className="text-sm">
-            La première version reste volontairement ciblée : 75%, mécanique,
-            filaire, E-Ink, logiciel desktop. Le but : un outil fiable qui
+            La première version reste volontairement ciblée : 75%,
+            filaire, E-Ink, simple et élégant, logiciel desktop. Le but : un outil fiable qui
             couvre déjà l’essentiel du workflow créatif.
           </p>
         </div>
@@ -22,7 +22,7 @@ const RoadmapSection = () => {
           <div className="card">
             <h3 className="heading-md">v1 — Base solide</h3>
             <p className="text-sm" style={{ marginTop: "0.6rem" }}>
-              Clavier 75% mécanique, base aluminium, keycaps E-Ink, logiciel
+              Clavier 75%, keycaps E-Ink, logiciel
               dédié desktop, profils par application, macros, gestion RGB,
               mises à jour firmware.
             </p>

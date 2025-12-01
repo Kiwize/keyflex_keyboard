@@ -9,7 +9,7 @@ const FeatureSection = () => {
           <div className="section-header-left">
             <div className="section-eyebrow">Fonctionnalités</div>
             <h2 className="heading-lg">
-              Un clavier, plusieurs vies. E-Ink, macros, aluminium.
+              Un clavier, plusieurs vies.<br/>
             </h2>
           </div>
           <p className="text-sm">
@@ -51,8 +51,8 @@ const FeatureSection = () => {
             <div className="feature-tag">Construction matérielle</div>
             <h3 className="heading-md feature-card-title">Pensé pour durer</h3>
             <p className="text-sm feature-body">
-              Format 75% mécanique, base en aluminium, keycaps plastique, port
-              USB-C. Solide, dense, conçu pour rester sur ton bureau plusieurs
+              Format 75%, keycaps plastique, port
+              USB-C. <br/>Solide, dense, conçu pour rester sur ton bureau plusieurs
               années.
             </p>
             <div className="feature-meta">
