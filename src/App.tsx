@@ -5,7 +5,6 @@ import PersonaSection from "./components/PersonaSection";
 import HowItWorksSection from "./components/HowItWorksSection";
 import RoadmapSection from "./components/RoadmapSection";
 import CtaSection from "./components/CtaSection";
-import Footer from "./components/Footer";
 
 function App() {
   return (
