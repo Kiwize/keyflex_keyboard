@@ -36,7 +36,10 @@ const Hero = () => {
             >
               Rejoindre la liste d’attente
             </button>
-            <button className="btn btn-ghost">
+            <button 
+              className="btn btn-ghost"
+              onClick={() => window.open('./docs/dynamic_keyboard_keyflex.pdf', '_blank')}
+            >
               Voir comment il fonctionne
             </button>
           </div>
